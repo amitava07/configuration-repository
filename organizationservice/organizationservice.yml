@@ -1,0 +1,8 @@
+example.property: "I AM DEFAULT"
+
+spring.datasource.url: "jdbc:mysql://localhost:3306/eagle_eye_local"
+spring.datasource.username: "root"
+spring.datasource.password: "{cipher}d1c4daf50f3baebffbda5e8d7b324403b34c0d0bb0f8b97f17966c4572cbd2e2"
+spring.jpa.show-sql: "true"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
